@@ -10,6 +10,7 @@ html, body {
     padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
     background-color: var(--base-white);
+    color: var(--font-color);
   
 }
         /* TYPOGRAPHY */
@@ -20,6 +21,7 @@ h5,p{
 p{
     font-size: 12px;
 }
+
         /* LAYOUT */
 
 .container{
@@ -36,8 +38,13 @@ p{
     height: 34px;
     border-radius: 50%;
 }
-.head-container{
+.head-container, 
+.section-head,
+.btn-container,
+.comment-container{
     display: flex;
+}
+.head-container{
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid var(--border-gray);
@@ -50,7 +57,6 @@ section{
 }
 .section-head{
     padding: 10px;
-    display: flex;
     align-items: center;
 }
 .section-head-details{
@@ -60,7 +66,6 @@ section{
     width: 375px;
 }
 .btn-container{
-    display: flex;
     align-items: center;
     padding: 10px 0px 10px 5px;
 }
@@ -79,11 +84,9 @@ section{
     padding-bottom:10px ;
 }
 .comment-container{
-    display: flex;
     padding-bottom: 15px;
 }
 .comment{
     padding-left: 5px;
 }
-        /* LINKS */
 
